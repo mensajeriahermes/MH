@@ -28,7 +28,7 @@
    <section class="section" id="servicios">
      <h2>Servicios</h2>
      <ul>
-       <li>Encomiendas Simples Y Certificadas</li>
+       <li>Envíos Simples Y Certificados</li>
      </ul>
      
      <ul>
@@ -42,12 +42,14 @@
    
    <section class="section" id="tarifas">
      <h2>Tarifas</h2>
-   <p>Desde $5.000 Por Encomiendas
+   <p>Tarifa Base De $3.000 Por Envíos</p>
+   <p>+ $60 Por Minuto</p>
+   <p>+ $40 Por Kimlometro</p>
    <p>Urgente O Programada: Consultar Por Formulario</p>
  </section>
    
    <section class="cta" id="formulario">
-     <h2>¿Querés Enviar Una Encomienda?</h2>
+     <h2>¿Querés Enviar Una Paquete?</h2>
      <p>Completá El Formulario Y Te Contactamos</p>
      <a href="#formulario-envio" class="btn">
        <i class="fas fa-clipboard-list"></i>Solicitar Envío</a>
@@ -64,19 +66,25 @@
        <input type="text" id="apellido" name="apellido" required>
        
        <label for="email">Correo Electrónico:</label>
-       <input type="email" id="email" name="email" required>
+       <input type="email" id="email" name="email">
        
-       <label for="contacto">Contacto:</label>
-       <input type="tel" id="contacto" name="contacto">
+       <label for="telefono">Télefono:</label>
+       <input type="tel" id="tel" name="tel" required>
               
        <label for="codigo-postal">Codigo Postal:</label>
        <input type="text" id="codigo-postal" name="codigo-postal" required>      
         
-       <label for="direccion">Dirección Y Localidad/Remitente:</label>
-       <input type="text" id="direccion" name="direccion">
+       <label for="direccion">Dirección Y Localidad (Remitente):</label>
+       <input type="text" id="direccion" name="direccion" required>
        
-       <label for="destino">Dirección Y Localidad/Destino:</label>
-       <input type="text" id="direccion" name="direccion">
+       <label for="destino">Dirección Y Localidad (Destino):</label>
+       <input type="text" id="direccion" name="direccion" required>
+      
+       <label for="urgente-programado">Urgente O Programado:</label>
+       <select id="urgente-programado" name="urgente-programado" required>
+         <option value="urgente">Urgente</option>
+         <option value="programado">Programado</option>
+       </select>
        
        <label for="tipo-paquete">Tipo De Paquete:</label>
        <select id="tipo-paquete" name="tipo_paquete" required>
@@ -88,7 +96,7 @@
        </select>
        
        <label for="detalles">Detalles Adicionales:</label>
-       <textarea id="detalles" name="detalles" rows="4" placeholder="Instruciciones especiales, horarios, referencias, etc."></textarea>
+       <textarea id="detalles" name="detalles" rows="4" placeholder="Instrucciones especiales, horarios, referencias, etc."></textarea>
        
        <button type="submit" class="btn">
          <i class="fas fa-paper-plane"></i> Enviar Solicitud</button>
@@ -99,7 +107,6 @@
    <section class="section" id="contacto">
      <h2>Contacto</h2>
      <p>Mail: contactomensajeriahermes@gmail.com</p>
-     <p>WhatsApp: +54 9 11 1234-5678</p>
      <p>Buenos Aires, Argentina</p>
    </section>
    
