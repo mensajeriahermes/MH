@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff7f0;
+  color: #333;
+}
+    
+header {
+  background-color: #ff6600;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo-img {
+  border-radius: 50%;
+  width: 120px;
+  height: auto;
+}
+
+nav {
+  background-color: #fff3e0;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+  gap: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+}
+    
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 8px 16px
+  background-color: #e87c15;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #cc6c12;
+}
+   
+.hero {
+  background: linear-gradient(135deg, #ffe6cc, #ffd1a3);
+  padding: 3rem;
+  text-align: center;
+}
+    
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+    
+.section {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+    
+.cta {
+  background-color: #fff0e0;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 500px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0,1);
+}
+    
+.cta button {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.cta button:hover {
+  background-color: #e05400;
+}
+   
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #e05500;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+.formulario {
+  padding: 3rem 2rem;
+  background-color: #fefefe;
+  border-top: 2px solid #ccc;
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.formulario form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+  
+.formulario input,
+.formulario teaxtarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.formulario butoton {
+  background-color: #ff6600;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: center;
+}
+
+.formulario button:hover {
+  background-color: #e65c00;
+}
+
+.formulario-envio {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 60px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.forulario-envio h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.formulario-envio form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-envio label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.formulario-envio input,
+.formulario.envio select,
+.formulario-envio textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.formulario-envio button.btn {
+  margin-top: 25px;
+  background: #ff6600;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario-envio button.btn:hover {
+  background-color: #cc5200;
+}
+
+
+
+
+
+
